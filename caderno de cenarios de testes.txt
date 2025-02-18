@@ -1,0 +1,38 @@
+Casos de Testes
+
+Login:
+
+  Acesso de admin está correto.
+  Recusa de acesso está correto para qualquer senha incorreta.
+Função Menu:
+ 
+  Criada corretamente, a instância iniciou e encerrou-se conforme esperado.
+  Chamada de todas as funções (inserir), (consulta) e (deletar) corretamente.
+Função inserir:
+
+  Criação de banco de dados está correta.
+  Inserção de CPF, ok.
+  Inserção de Nome, ok.
+  Inserção de Sobrenome, ok.
+  Inserção de Cargo, ok
+Encerramento de função e retorno ao menu, ok.
+
+Função consultar:
+
+  Solicitação de “cpf”, ok.
+  Consulta ao banco, ok.
+  Retorno ao usuário, ok.
+  Retorno ao Menu, ok
+Função deletar:
+
+  Solicitação de “cpf”, ok.
+  Deletar no banco, ok.
+
+
+foram mantidos as primicias de:
+
+inserção de dados 
+Atualização de dados 
+e Exclusão de dados 
+
+o produto esta 100% para o consumo do usuario 
