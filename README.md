@@ -98,3 +98,59 @@ Projeto educacional desenvolvido para fins de aprendizado na EBAC.
 Feito com :heart: para estudo.
 
 ## senha padrão para usar o App "admin"
+
+---
+
+# :clipboard: Relatório de Casos de Teste
+
+## :lock: Login
+
+- ✅ Acesso do administrador funcionou corretamente.
+- ✅ Tentativas de acesso com senhas incorretas foram devidamente recusadas.
+
+## :gear: Menu Principal
+
+- ✅ Menu criado corretamente: a instância foi iniciada e encerrada conforme esperado.
+- ✅ Todas as funções foram chamadas corretamente:
+  - Inserir
+  - Consultar
+  - Deletar
+
+## :inbox_tray: Função Inserir
+
+- ✅ Banco de dados criado corretamente.
+- ✅ Inserção de dados realizada com sucesso:
+  - CPF
+  - Nome
+  - Sobrenome
+  - Cargo
+- ✅ Encerramento da função e retorno ao menu confirmados.
+
+## :mag_right: Função Consultar
+
+- ✅ Solicitação de CPF executada corretamente.
+- ✅ Consulta realizada com sucesso.
+- ✅ Dados retornados corretamente ao usuário.
+- ✅ Retorno ao menu efetuado.
+
+## :wastebasket: Função Deletar
+
+- ✅ Solicitação de CPF aceita corretamente.
+- ✅ Exclusão do arquivo correspondente realizada com sucesso.
+
+---
+
+## :bulb: Princípios Mantidos
+
+- Inserção de dados
+- Atualização de dados (regravação sobre o mesmo CPF)
+- Exclusão de dados
+
+---
+
+## :white_check_mark: Conclusão
+
+O produto está **100% funcional** e pronto para consumo do usuário final. Todos os testes executados foram concluídos com sucesso. 
+
+> Sistema validado com base nas funcionalidades esperadas e comportamentos previstos.
+
