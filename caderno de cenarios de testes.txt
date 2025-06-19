@@ -1,38 +1,50 @@
-Casos de Testes
+===========================
+ RELATÓRIO DE CASOS DE TESTE
+===========================
 
-Login:
+LOGIN
+-----
+[OK] Acesso do administrador funcionou corretamente.
+[OK] Tentativas de acesso com senhas incorretas foram recusadas.
 
-  Acesso de admin está correto.
-  Recusa de acesso está correto para qualquer senha incorreta.
-Função Menu:
- 
-  Criada corretamente, a instância iniciou e encerrou-se conforme esperado.
-  Chamada de todas as funções (inserir), (consulta) e (deletar) corretamente.
-Função inserir:
+MENU PRINCIPAL
+--------------
+[OK] Menu criado corretamente: iniciado e encerrado como esperado.
+[OK] Todas as funções foram chamadas com sucesso:
+     - Inserir
+     - Consultar
+     - Deletar
 
-  Criação de banco de dados está correta.
-  Inserção de CPF, ok.
-  Inserção de Nome, ok.
-  Inserção de Sobrenome, ok.
-  Inserção de Cargo, ok
-Encerramento de função e retorno ao menu, ok.
+FUNÇÃO INSERIR
+--------------
+[OK] Banco de dados criado corretamente.
+[OK] Inserção de CPF.
+[OK] Inserção de Nome.
+[OK] Inserção de Sobrenome.
+[OK] Inserção de Cargo.
+[OK] Encerramento da função e retorno ao menu.
 
-Função consultar:
+FUNÇÃO CONSULTAR
+----------------
+[OK] Solicitação de CPF realizada corretamente.
+[OK] Consulta ao banco executada com sucesso.
+[OK] Retorno dos dados ao usuário.
+[OK] Retorno ao menu.
 
-  Solicitação de “cpf”, ok.
-  Consulta ao banco, ok.
-  Retorno ao usuário, ok.
-  Retorno ao Menu, ok
-Função deletar:
+FUNÇÃO DELETAR
+--------------
+[OK] Solicitação de CPF aceita.
+[OK] Arquivo deletado com sucesso.
 
-  Solicitação de “cpf”, ok.
-  Deletar no banco, ok.
+PRINCÍPIOS MANTIDOS
+-------------------
+- Inserção de dados
+- Atualização de dados (regravação)
+- Exclusão de dados
 
+CONCLUSÃO FINAL
+----------------
+O produto está 100% funcional e pronto para uso final.
+Todos os testes foram realizados com sucesso.
 
-foram mantidos as primicias de:
-
-inserção de dados 
-Atualização de dados 
-e Exclusão de dados 
-
-o produto esta 100% para o consumo do usuario 
+(Sistema validado conforme os comportamentos esperados.)
